@@ -21,7 +21,7 @@
 }
 
 :root {
-    --grid-number: 2;
+    --grid-number: 1;
 }
 
 body {
@@ -109,9 +109,11 @@ body {
 
 .cell {
     background-color: #fff;
+    width: 100%;
 }
 
-.pixel-label {
+
+.slider-text {
     font-size: 1.2rem;
     font-weight: 700;
 }
